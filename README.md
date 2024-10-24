@@ -1,7 +1,5 @@
 # Book Recommender System
 
-![Logo](path/to/logo.png) <!-- Replace with the path to your logo image -->
-
 ## Overview
 This project is a Book Recommender System designed to help users find new books based on their preferences. The system utilizes a variety of algorithms to recommend books that are similar to those the user has previously enjoyed.
 
