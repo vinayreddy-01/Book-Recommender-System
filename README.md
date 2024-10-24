@@ -1,19 +1,21 @@
 # Book Recommender System
 
+![Logo](path/to/logo.png) <!-- Replace with the path to your logo image -->
+
 ## Overview
 This project is a Book Recommender System designed to help users find new books based on their preferences. The system utilizes a variety of algorithms to recommend books that are similar to those the user has previously enjoyed.
 
 ## Features
 - **User-Friendly Interface**: Simple and intuitive design for easy navigation.
 - **Personalized Recommendations**: Provides book suggestions based on user input.
-- **Genre and Popularity Filters**: Users can filter recommendations based on genres and popularity.
+- **Collaborative Filtering**: Utilizes user ratings and preferences to suggest books that similar users have enjoyed.
+- **Content-Based Filtering**: Recommends books based on the attributes of books users have liked in the past, using cosine similarity to measure similarity between book features.
 
 ## Technologies Used
-- **Backend**: Python with Flask
+- **Backend**: Python 
 - **Frontend**: Streamlit
 - **Data Handling**: Pandas for data manipulation
-- **Machine Learning**: Implemented various algorithms for book similarity
-- **Visualization**: Altair for data visualization
+- **Machine Learning**: Implemented cosine similarity for recommendations.
 
 ## Installation
 To get started with the project, follow these steps:
@@ -45,4 +47,5 @@ To get started with the project, follow these steps:
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
+
 
